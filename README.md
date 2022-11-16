@@ -9,3 +9,6 @@
     8 KB of SRAM (instead of WRAM), 
     4 Screens (Does this just add VRAM on the cartridge?), and
     the CODE section is from $c000 - $dfff (instead of $a000 - $dfff; default code still fits, and this allows you to swap the bank at $a000 without breaking things)
+
+Details on the banks: 
+Even number banks are mapped to $8000 - $9fff, and odd number banks are mapped to $a000 - $bfff.
