@@ -4,8 +4,8 @@
 
  This is adapted from Nesdoug's tutorials.
  Changes include:
-    512 KB of PRG-ROM (instead of 128 KB)
-    256 KB of CHR-ROM (instead of 128 KB)
-    8 KB of SRAM (instead of WRAM)
-    4 Screens (Does this just add VRAM on the cartridge?)
-    The CODE section is from $c000 - $dfff (instead of $a000 - $dfff; default code still fits, and this allows you to swap the bank at $a000 without breaking things)
+    512 KB of PRG-ROM (instead of 128 KB), 
+    256 KB of CHR-ROM (instead of 128 KB), 
+    8 KB of SRAM (instead of WRAM), 
+    4 Screens (Does this just add VRAM on the cartridge?), and
+    the CODE section is from $c000 - $dfff (instead of $a000 - $dfff; default code still fits, and this allows you to swap the bank at $a000 without breaking things)
